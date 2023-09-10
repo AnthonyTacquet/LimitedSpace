@@ -10,7 +10,7 @@ import 'package:limitedspace/global/world.dart';
 class LimitedSpaceGame extends FlameGame with HasKeyboardHandlerComponents, DragCallbacks
 {
   @override
-  Color backgroundColor() => const Color(0xFFFF0000);
+  Color backgroundColor() => const Color(0xFF182030);
   late final CameraComponent cam;
   late JoystickComponent joyStick;
   LimitedSpacePlayer player = LimitedSpacePlayer();
@@ -21,7 +21,7 @@ class LimitedSpaceGame extends FlameGame with HasKeyboardHandlerComponents, Drag
 
     final world = LimitedSpaceWorld(player: player);
 
-    cam = CameraComponent.withFixedResolution(world: world, width: 480, height: 320);
+    cam = CameraComponent.withFixedResolution(world: world, width: 800, height: 480);
     cam.viewfinder.anchor = Anchor.topLeft;
 
     addAll([cam, world]);

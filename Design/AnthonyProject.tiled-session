@@ -1,0 +1,40 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "C:/Users/Antho/Documents/Git project/LimitedSpace/limitedspace/assets/tiles/LunarMap.tmx": {
+            "scale": 1.1115,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 400.8097165991903,
+                "y": 240.66576698155652
+            }
+        },
+        "C:/Users/Antho/Documents/Git project/LimitedSpace/limitedspace/assets/tiles/LunarTileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "C:/Users/Antho/Documents/Git project/LimitedSpace/limitedspace/assets/images",
+    "map.height": 30,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 50,
+    "openFiles": [
+    ],
+    "project": "AnthonyProject.tiled-project",
+    "recentFiles": [
+        "C:/Users/Antho/Documents/Git project/LimitedSpace/limitedspace/assets/tiles/LunarTileset.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

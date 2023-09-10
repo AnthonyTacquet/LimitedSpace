@@ -15,7 +15,7 @@ class LimitedSpaceWorld extends World
 
   @override
   FutureOr<void> onLoad() async{
-    map = await TiledComponent.load("DungeonTiles.tmx", Vector2.all(16));
+    map = await TiledComponent.load("LunarMap.tmx", Vector2.all(16));
 
     add(map);
 
